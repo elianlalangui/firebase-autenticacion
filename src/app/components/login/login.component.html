@@ -1,0 +1,13 @@
+<h2>Inicio de sesión de usuario</h2>
+<form [formGroup]="formLogin" (ngSubmit)="onSubmit()">
+    <div>
+        <label class="form-label">Correo electrónico</label>
+        <input type="text" class="form-control" formControlName="email" placeholder="Ingrese email...">
+    </div>
+    <div>
+        <label class="form-label">Contraseña</label>
+        <input type="password" class="form-control" formControlName="password" placeholder="Ingrese contraseña...">
+    </div>
+    <input type="submit" value="Iniciar sesión">
+    <button class="btn btn-info" (click)="onClick()">Iniciar con Google</button>
+</form>

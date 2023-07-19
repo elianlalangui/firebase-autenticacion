@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: #fff;
+}
+
+h2{
+    text-align: center;
+}
+
+form{
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input[type="submit"]{
+    width: 20%;
+    margin: 0 auto;
+    background-color: blue;
+    color: #000;
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-color: white;
+    font-weight: 600;
+}
